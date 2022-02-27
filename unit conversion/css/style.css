@@ -41,6 +41,16 @@ input::-webkit-input-placeholder {
     color: rgba(255, 255, 255, 0.4);
 }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
 .head-display input:focus{
     outline: none;
 }
